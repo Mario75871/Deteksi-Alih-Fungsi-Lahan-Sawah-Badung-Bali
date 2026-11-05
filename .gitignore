@@ -1,0 +1,32 @@
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Geospatial Raster Files (GeoTIFFs > 100MB exceed GitHub file limit)
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Sensitive or Local Environment Configs
+.env
+.streamlit/secrets.toml
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific
+Thumbs.db
+Desktop.ini
+.DS_Store

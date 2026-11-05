@@ -1,0 +1,11 @@
+Metrik,Nilai
+Jumlah Sampel Uji,100
+True Positive (TP),42
+False Positive (FP),8
+False Negative (FN),4
+True Negative (TN),46
+Overall Accuracy (OA),88.00%
+User's Accuracy (Precision),84.00%
+Producer's Accuracy (Recall),91.30%
+F1-Score,0.8750
+Kappa Coefficient (κ),0.7600
