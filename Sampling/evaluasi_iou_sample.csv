@@ -1,0 +1,3 @@
+Konfigurasi,Th_NDVI,Th_LSWI,Th_Sigma_NIR,Min_Area_Px,Morfologi,TP,FP,FN,TN,IoU (%),Precision (%),Recall (%),F1-Score (%),Accuracy (%)
+Baseline (Ellipse 3x3 + CCA 15px),0.45,0.18,0.045,15,Opening + CCA + Closing (Ellipse 3x3),1130,418,87,330,69.11,73.0,92.85,81.74,74.3
+Tuned (LSWI=0.26 + CCA 5px),0.45,0.26,0.045,5,CCA >= 5px (Preserve Small Plots),1114,248,103,500,76.04,81.79,91.54,86.39,82.14
